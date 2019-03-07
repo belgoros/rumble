@@ -1,5 +1,7 @@
 # Rumbl
 
+This is an example app from [Programming Phoenix 1.4](https://pragprog.com/book/phoenix14/programming-phoenix-1-4) book.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
