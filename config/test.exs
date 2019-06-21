@@ -9,6 +9,9 @@ config :rumbl, RumblWeb.Endpoint,
 # Print only warnings and errors during test
 config :logger, level: :warn
 
+# Set number of hashing rounds to speed up our test suite
+config :pbkdf2_elixir, :rounds, 1
+
 # Configure your database
 config :rumbl, Rumbl.Repo,
   username: "postgres",
